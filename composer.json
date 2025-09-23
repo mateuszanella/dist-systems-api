@@ -1,0 +1,10 @@
+{
+    "name": "uri/dist-systems",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Uri\\DistSystems\\": "src/"
+        }
+    },
+    "require": {}
+}
