@@ -21,10 +21,7 @@ if [ ! -d vendor ]; then
 fi
 
 # Generate application key if not set
-php artisan key:generate --no-interaction --force
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
+php artisan key:generate --no-interaction
 
 # Set proper permissions
 chown -R www-data:www-data /var/www/html
